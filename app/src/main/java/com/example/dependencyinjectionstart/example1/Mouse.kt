@@ -1,4 +1,7 @@
 package com.example.dependencyinjectionstart.example1
 
-class Mouse {
+import javax.inject.Inject
+
+class Mouse @Inject constructor() {
+
 }
